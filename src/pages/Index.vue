@@ -94,19 +94,16 @@ export default defineComponent({
       } else {
         var bg = '#ffffff';
       }
-      var result = document.querySelector('#result');
-      if (result === null) return;
-      result.innerHTML = '';
-
       html2canvas(<HTMLInputElement>document.querySelector('#app'), {
         backgroundColor: bg,
         width: 1024,
         windowWidth: 1024,
         y: 0,
       }).then(function (canvas) {
-        var result = document.querySelector('#result');
-        if (result === null) return;
-        result.appendChild(canvas);
+        const link = document.createElement('a');
+        link.href = canvas.toDataURL();
+        link.download = `export_image.png`;
+        link.click();
       });
     },
   },
@@ -6107,7 +6104,6 @@ export default defineComponent({
         <i class="iconify" :data-icon="'mdi:image-edit'" />
         {{ t('generate') }}
       </button>
-      <div id="result" class="border-2"></div>
       <p class="m-3">
         <a
           class="py-1 px-3 rounded font-bold text-white bg-blue-500"
@@ -6118,7 +6114,7 @@ export default defineComponent({
           <i class="iconify" :data-icon="'mdi:twitter'" />
           Tweet
         </a>
-        <span class="mx-3">画像を保存して投稿してください。</span>
+        <span class="mx-3">生成された画像を添付して投稿してください。</span>
       </p>
     </div>
 
