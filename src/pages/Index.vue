@@ -101,8 +101,8 @@ export default defineComponent({
         y: 0,
       }).then(function (canvas) {
         const link = document.createElement('a');
-        link.href = canvas.toDataURL();
-        link.download = `export_image.png`;
+        link.href = canvas.toDataURL('image/jpeg');
+        link.download = `image.jpg`;
         link.click();
       });
     },
