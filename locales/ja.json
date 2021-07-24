@@ -1,9 +1,10 @@
 {
   "title": "前クール、どこまで見た？",
-  "share_progress": "nanimitaで進捗を共有しよう。",
+  "share_whatched": "あなたの「見た」を共有しよう",
   "hide_zero_works": "1話も見ていない作品を隠す",
-  "show_zero_works":"1話も見ていない作品を表示",
-  "generate":"画像を生成",
-  "toggle_theme":"テーマ切り替え",
+  "show_zero_works": "1話も見ていない作品を表示",
+  "generate": "画像を生成",
+  "post_with_image": "生成された画像を添付して投稿してください。",
+  "toggle_theme": "テーマ切り替え",
   "toggle_language": "言語切り替え"
 }

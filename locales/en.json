@@ -1,5 +1,10 @@
 {
-  "title": "How much of the last season's anime have you seen?",
-  "share_progress": "Use nanimita to share your progress!",
+  "title": "How many episodes did you see last season?",
+  "share_whatched": "Share your \"mita\" (\"mita\" means \"watched\")",
+  "hide_zero_works": "Hide unwatched",
+  "show_zero_works": "Show unwatched",
+  "generate": "Generate image",
+  "post_with_image": "Please post the generated image as an attachment.",
+  "toggle_theme": "Toggle theme",
   "toggle_language": "Toggle Language"
 }

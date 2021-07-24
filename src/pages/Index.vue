@@ -126,7 +126,7 @@ export default defineComponent({
       </h1>
 
       <p class="mt-3">
-        {{ t('share_progress') }}
+        {{ t('share_whatched') }}
       </p>
     </div>
 
@@ -6104,7 +6104,7 @@ export default defineComponent({
         <i class="iconify" :data-icon="'mdi:image-edit'" />
         {{ t('generate') }}
       </button>
-      <p class="">生成された画像を添付して投稿してください。</p>
+      <p class="">{{ t('post_with_image') }}</p>
       <p class="m-3">
         <a
           class="py-1 px-3 rounded font-bold text-white bg-blue-400"
