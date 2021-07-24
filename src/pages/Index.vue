@@ -6104,9 +6104,10 @@ export default defineComponent({
         <i class="iconify" :data-icon="'mdi:image-edit'" />
         {{ t('generate') }}
       </button>
+      <p class="">生成された画像を添付して投稿してください。</p>
       <p class="m-3">
         <a
-          class="py-1 px-3 rounded font-bold text-white bg-blue-500"
+          class="py-1 px-3 rounded font-bold text-white bg-blue-400"
           href="https://twitter.com/intent/tweet?text=%23nanimita%20%E3%81%A7%E5%89%8D%E3%82%AF%E3%83%BC%E3%83%AB%E8%A6%8B%E3%81%9F%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%92%E3%81%BE%E3%81%A8%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81%20https%3A%2F%2Fnanimita.theoria.ga"
           rel="noreferrer"
           target="_blank"
@@ -6114,7 +6115,15 @@ export default defineComponent({
           <i class="iconify" :data-icon="'mdi:twitter'" />
           Tweet
         </a>
-        <span class="mx-3">生成された画像を添付して投稿してください。</span>
+        <a
+          class="py-1 px-3 rounded font-bold text-white bg-blue-500 ml-3"
+          href="https://mastoshare.net/post.php?text=%23nanimita%20%E3%81%A7%E5%89%8D%E3%82%AF%E3%83%BC%E3%83%AB%E8%A6%8B%E3%81%9F%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%92%E3%81%BE%E3%81%A8%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%81%20https%3A%2F%2Fnanimita.theoria.ga"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <i class="iconify" :data-icon="'mdi:mastodon'" />
+          Toot!
+        </a>
       </p>
     </div>
 
