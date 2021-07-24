@@ -7,6 +7,7 @@ import ViteComponents from 'vite-plugin-components';
 import PurgeIcons from 'vite-plugin-purge-icons';
 import ViteFonts from 'vite-plugin-fonts';
 import svgLoader from 'vite-svg-loader';
+import ViteRadar from 'vite-plugin-radar';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -47,5 +48,11 @@ export default defineConfig({
     VueI18n({
       include: [path.resolve(__dirname, './locales/**')],
     }),
+    ViteRadar({
+      // Google Analytics tag injection
+      analytics: {
+        id: 'G-9Z4ZQQFCNS',
+      },
+    })
   ],
 });
