@@ -78,10 +78,10 @@ export default defineComponent({
         "
       >
         <li class="m-3">
-          <a href="/2021sp/">2021年春クール（2021.04-）</a>
+          <a href="/2021spring/">2021年春クール（2021.04-）</a>
         </li>
         <li class="m-3">
-          <a href="/2021su/">2021年夏クール（2021.07-）</a>
+          <a href="/2021summer/">2021年夏クール（2021.07-）</a>
         </li>
       </ul>
     </div>
