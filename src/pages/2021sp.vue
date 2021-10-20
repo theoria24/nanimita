@@ -384,7 +384,7 @@ export default defineComponent({
             year +
             '年' +
             season +
-            'クール見たアニメをまとめました！ https://nanimita.theoria.ga/' +
+            'クールに見たアニメをまとめました！ https://nanimita.theoria.ga/' +
             year +
             season_en,
         ),
@@ -395,7 +395,7 @@ export default defineComponent({
             year +
             '年' +
             season +
-            'クール見たアニメをまとめました！ https://nanimita.theoria.ga/' +
+            'クールに見たアニメをまとめました！ https://nanimita.theoria.ga/' +
             year +
             season_en,
         ),
