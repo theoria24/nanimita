@@ -1,6 +1,6 @@
 {
   "name": "nanimita",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "前クールのアニメをどこまで見たか",
   "scripts": {
     "dev": "vite --open --host",

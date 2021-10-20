@@ -6,5 +6,7 @@
   "generate": "画像を生成",
   "post_with_image": "生成された画像を添付して投稿してください。",
   "toggle_theme": "テーマ切り替え",
-  "toggle_language": "言語切り替え"
+  "toggle_language": "言語切り替え",
+  "register_one_episode": "一話ずつ登録中",
+  "register_renge": "範囲で登録中"
 }
