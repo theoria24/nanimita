@@ -634,4 +634,7 @@ export default defineComponent({
 </template>
 
 <style>
+.hidden {
+  display: none;
+}
 </style>
