@@ -1,5 +1,5 @@
 {
-  "title": "How many episodes did you see last season?",
+  "title": "How many episodes did you watch in the {season_en} quarter of {year}?",
   "share_whatched": "Share your \"mita\" (\"mita\" means \"watched\")",
   "hide_zero_works": "Hide unwatched",
   "show_zero_works": "Show unwatched",
