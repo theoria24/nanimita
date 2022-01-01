@@ -589,6 +589,7 @@ export default defineComponent({
             year +
             season_en,
         ),
+      copyyear: '',
     };
   },
   methods: {
@@ -633,6 +634,10 @@ export default defineComponent({
         }
       });
     },
+  },
+  created() {
+    const d = new Date();
+    this.copyyear = String(d.getFullYear());
   },
 });
 </script>
@@ -843,7 +848,7 @@ export default defineComponent({
         </ul>
 
         <div class="m-1">
-          &copy; 2021
+          &copy; 2021 - {{ copyyear }}
           <a
             class="text-cyan-500 hover:text-cyan-600"
             href="https://nanimita.theoria.ga"
