@@ -17,6 +17,12 @@ const routes = [
     meta: { title: '2021年夏期 - nanimita'}
 
   },
+  {
+    path: '/2021autumn/:',
+    component: () => import('../pages/2021au.vue'),
+    meta: { title: '2021年秋期 - nanimita'}
+
+  },
 ];
 
 export const Router = createRouter({
