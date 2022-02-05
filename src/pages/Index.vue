@@ -51,7 +51,7 @@ export default defineComponent({
       <p class="m-3">
         <a
           class="py-1 px-3 rounded font-bold text-white bg-blue-400"
-          href="https://twitter.com/intent/tweet?text=%23nanimita+-+%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E3%80%8C%E8%A6%8B%E3%81%9F%E3%80%8D%E3%82%92%E5%85%B1%E6%9C%89%E3%81%97%E3%82%88%E3%81%86+https%3A%2F%2Fnanimita.theoria.ga"
+          href="https://twitter.com/intent/tweet?text=%23nanimita+-+%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E3%80%8C%E8%A6%8B%E3%81%9F%E3%80%8D%E3%82%92%E5%85%B1%E6%9C%89%E3%81%97%E3%82%88%E3%81%86+https%3A%2F%2Fnanimita.theoria.ga%20@_theoria"
           rel="noreferrer"
           target="_blank"
         >
