@@ -527,7 +527,8 @@ export default defineComponent({
             season +
             'クールに見たアニメをまとめました！ https://nanimita.theoria.ga/' +
             year +
-            season_en,
+            season_en +
+            ' @_theoria',
         ),
     };
   },
