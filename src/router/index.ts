@@ -23,6 +23,12 @@ const routes = [
     meta: { title: '2021年秋期 - nanimita'}
 
   },
+  {
+    path: '/2022winter/:',
+    component: () => import('../pages/2022wi.vue'),
+    meta: { title: '2022年冬期 - nanimita'}
+
+  },
 ];
 
 export const Router = createRouter({
